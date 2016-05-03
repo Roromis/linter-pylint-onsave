@@ -1,8 +1,8 @@
 # linter-pylint-onsave
-[![Build Status](https://travis-ci.org/AtomLinter/linter-pylint.svg?branch=master)](https://travis-ci.org/AtomLinter/linter-pylint)
-[![Dependency Status](https://david-dm.org/AtomLinter/linter-pylint.svg)](https://david-dm.org/AtomLinter/linter-pylint)
-[![Plugin installs!](https://img.shields.io/apm/dm/linter-pylint.svg)](https://atom.io/packages/linter-pylint)
-[![Package version!](https://img.shields.io/apm/v/linter-pylint.svg?style=flat)](https://atom.io/packages/linter-pylint)
+[![Build Status](https://travis-ci.org/Roromis/linter-pylint-onsave.svg?branch=master)](https://travis-ci.org/Roromis/linter-pylint-onsave)
+[![Dependency Status](https://david-dm.org/Roromis/linter-pylint-onsave.svg)](https://david-dm.org/Roromis/linter-pylint-onsave)
+[![Plugin installs!](https://img.shields.io/apm/dm/linter-pylint-onsave.svg)](https://atom.io/packages/linter-pylint-onsave)
+[![Package version!](https://img.shields.io/apm/v/linter-pylint-onsave.svg?style=flat)](https://atom.io/packages/linter-pylint-onsave)
 
 This package will lint your opened Python-files in Atom, using [pylint](http://www.pylint.org/).
 
