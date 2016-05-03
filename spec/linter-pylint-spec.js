@@ -12,7 +12,7 @@ describe('The pylint provider for Linter', () => {
   beforeEach(() => {
     waitsForPromise(() =>
       Promise.all([
-        atom.packages.activatePackage('linter-pylint'),
+        atom.packages.activatePackage('linter-pylint-onsave'),
         atom.packages.activatePackage('language-python').then(() =>
           atom.workspace.open(goodPath)
         )
@@ -21,11 +21,11 @@ describe('The pylint provider for Linter', () => {
   });
 
   it('should be in the packages list', () =>
-    expect(atom.packages.isPackageLoaded('linter-pylint')).toBe(true)
+    expect(atom.packages.isPackageLoaded('linter-pylint-onsave')).toBe(true)
   );
 
   it('should be an active package', () =>
-    expect(atom.packages.isPackageActive('linter-pylint')).toBe(true)
+    expect(atom.packages.isPackageActive('linter-pylint-onsave')).toBe(true)
   );
 
   describe('checks bad.py and', () => {

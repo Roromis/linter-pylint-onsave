@@ -1,4 +1,4 @@
-# linter-pylint
+# linter-pylint-onsave
 [![Build Status](https://travis-ci.org/AtomLinter/linter-pylint.svg?branch=master)](https://travis-ci.org/AtomLinter/linter-pylint)
 [![Dependency Status](https://david-dm.org/AtomLinter/linter-pylint.svg)](https://david-dm.org/AtomLinter/linter-pylint)
 [![Plugin installs!](https://img.shields.io/apm/dm/linter-pylint.svg)](https://atom.io/packages/linter-pylint)
@@ -6,10 +6,16 @@
 
 This package will lint your opened Python-files in Atom, using [pylint](http://www.pylint.org/).
 
+This is a fork of the [linter-pylint](https://github.com/AtomLinter/linter-pylint/) package.
+
+## Difference with linter-pylint
+
+In order to lint files on the fly, linter-pylint executes pylint on a temporary file. This creates various issues, especially with relative imports. linter-pylint-onsave only lint files when they are saved, allowing it to work directly on the original file, as you would do if you used pylint directly.
+
 ## Installation
 
 * Install [pylint](http://www.pylint.org/#install).
-* `$ apm install linter-pylint`
+* `$ apm install linter-pylint-onsave`
 
 ## Configuration
 * **Executable** Path to your pylint executable. This is useful if you have different versions of pylint for Python 2

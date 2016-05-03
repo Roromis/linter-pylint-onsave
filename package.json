@@ -1,10 +1,10 @@
 {
-  "name": "linter-pylint",
+  "name": "linter-pylint-onsave",
   "main": "./lib/main",
   "version": "1.2.0",
   "private": true,
-  "description": "Lint python on the fly, using pylint",
-  "repository": "https://github.com/AtomLinter/linter-pylint",
+  "description": "Lint python on save using pylint",
+  "repository": "https://github.com/Roromis/linter-pylint-onsave",
   "license": "MIT",
   "scripts": {
     "lint": "coffeelint lib & eslint spec"
